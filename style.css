@@ -1,0 +1,94 @@
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgb(4 32 50 / 85%);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#main-footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6C6F73;
+}
+
+
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 500px)
+{
+    .col-md-5>img{
+        width: 350px;
+    }
+    
+}
+    
+    
+@media only screen and (max-width: 500px)
+{
+    
+    .col-md-6 .video{
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .carousel-item{
+        height: 500px;
+        
+    }
+    
+}
+
