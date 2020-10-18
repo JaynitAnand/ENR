@@ -5,6 +5,14 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+
+ <meta name="robots" content="noindex">       <!--change to index when site is ready to index -->
+  <meta name="robots" content="follow">
+
+  <link rel="canonical" href="https://engagenreap.com/contact.html">
+
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,8 +23,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
 
   <title>EnR</title>
 </head>
@@ -25,14 +33,14 @@
   <nav class="site-header sticky-top py-1">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
       <a class="py-2" href="index.html" aria-label="Product">
-        <img src="images/logo2.png" style="height: 30px">
+        <img src="images/logo2.png" style="height: 30px" alt="EnR Consultancy Services">
       </a>
       <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Carrer At EnR</a>
       <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-      <a class="py-2 d-none d-md-inline-block" href="services-page.html">Service</a>
+      <a class="py-2 d-none d-md-inline-block" href="services-page.html">Services</a>
 
       <a class="py-2 d-none d-md-inline-block" href="contact.html">Contact</a>
     </div>
@@ -47,7 +55,7 @@
       </div>
 
       <div class="col-md-6 order-md-2 order-1 contact-img">
-        <img src="./images/telephone.jpg">
+        <img src="./images/telephone.jpg" alt="Contact-us">
       </div>
 
     </div>
@@ -69,13 +77,13 @@
         Mobile Application development. Our services are a one-stop-shop for everything that is needed
         to build a successful business. By engaging with us, you pave the way to the future of your
         business.</h5>
-        
+
     </div>
     <button class="collapsible">EnR Solution</button>
     <div class="collapsible-content">
       <h5>
         E&R business solution ensures improved time to market and improved quality over the
-customer-centric strategy used by many businesses.
+        customer-centric strategy used by many businesses.
       </h5>
       <h5>
         We help our clients to boost their business by providing them with excellent IT and
@@ -104,6 +112,43 @@ customer-centric strategy used by many businesses.
   </div>
 
   <br>
+  <br>
+
+  <!--------------Form----------------->
+
+  <div class="container">
+    <h2 class="text-center form-font">Mail Your Queries</h2>
+    <br>
+    <form class="form-horizontal">
+
+      <div class="form-group">
+        <label class="control-label col-sm-2 form-label" for="name">Name:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2 form-label" for="email">Email:</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2 form-label" for="desc">Description:</label>
+        <div class="col-sm-10">
+          <textarea type="text" class="form-control" id="desc" placeholder="Your Query" name="desc"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-10 offset-sm-2 form-button">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+
+  </div>
 
   <!-----------------Follow us on------------------------>
 
@@ -155,16 +200,15 @@ customer-centric strategy used by many businesses.
         <div class="col-md-6">
           <img src="images/logo2.png" style="width: 100px" height="100px">
           <br><br>
-          &copy; Coded by EnR Team
+          &copy; Developed by EnR Team
           <br>
           <br>
-          <ul class="social-icons">
-            <li><a class="phone"><i class="fa fa-phone" style="letter-spacing: 1px; font-size: 17px"> Contact: +44 7710
+          <ul class="social-icons" style="list-style-type:none ;">
+            <li><a class="phone"><i class="fa fa-phone " style="letter-spacing: 1px; font-size: 17px"> Contact: +44 7710
                   24310</i></a></li>
             <br>
-            <li><a class="mail"><i class="fa fa-envelope" style="letter-spacing: 1px; font-size: 17px">Email:
-                  info@engagenreap.com</i></a></li>
-
+            <li><a class="mail"><i class="fa fa-envelope" style="letter-spacing: 1px; font-size: 17px"> Email:
+                  info@engagenreap.com</i> </a></li>
           </ul>
 
         </div>
@@ -204,7 +248,7 @@ customer-centric strategy used by many businesses.
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
   <!------contact js file---- -->
-  <script src="./contact.js"></script>
+  <script src="./js/contact.js"></script>
   <!----------------------------->
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
