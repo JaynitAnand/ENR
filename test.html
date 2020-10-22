@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image:url(./images/ethics.jpg); background-size: 100% 100vh;">
+                <div class="slide-text">
+                    <h2 style="color: black;">PRODUCTS</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, ab?</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+
+            <!-- ---------------changes in this only right now----------- -->
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, blanditiis.</p>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="./images/">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ---------changes end------------------- -->
+
+            <div class="swiper-slide" style="background-image:url(./images/ethics.jpg);background-size: 100% 100vh;">
+                <div class="slide-text">
+                    <h2>hello</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, ab?</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="slide-text">
+                    <h2>hello</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, ab?</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="background-image:url(./images/ethics.jpg);background-size: 100% 100vh;">
+                <div class="slide-text">
+                    <h2>hello</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, ab?</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="slide-text">
+                    <h2>hello</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, ab?</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="./js/Jquery3.4.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            speed: 1000,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                type: "bullets",
+            },
+            autoplay: {
+                delay: 2000000,
+                disableOnInteraction: false
+            },
+            mousewheel: {
+                forceToAxis: true,
+                sensitivity: 10
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+        });
+    </script>
+
+    
+</body>
+
+</html>

@@ -56,8 +56,14 @@
 
 /* ---------------collapsible------------------- */
 
+
+
+.complete-color{
+    background-image: linear-gradient(to bottom,#d3d3d3,#d3d3d3);
+}
+
 .collapsible {
-    background-color: #777;
+    background-color: #353b48;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -69,7 +75,7 @@
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #2f3542;
   }
   
   .collapsible:after {
@@ -133,11 +139,15 @@
 
   .form-button button{
     font-size: 16px;
-    background-color:#777;
+    /* background-color:#777; */
     border: none;
   }
 
   .form-button button:hover{
-      background-color: #888888;
+      /* background-color: #888888; */
       border: none;
   }
+
+  .footer-headings{
+      font-size: 17px;
+  } 

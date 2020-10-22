@@ -60,7 +60,9 @@ body{
 .list-unstyled a{
   font-size: 15px;
   text-decoration: none;
+  color: #fff;
 }
+
 
 .footer-heading h6{
   font-size: 20px;
@@ -141,7 +143,7 @@ body{
   margin-bottom: 15px;
 }
 
-.ethic-info p{
+.ethic-info p{ 
   width: 100%;
   text-align: justify;
   margin:auto ;
@@ -173,5 +175,20 @@ body{
 .last-headings h3 {
   color:black;
   font-weight: 600;
-  background-color: rgba(223, 228, 234,0.6);
+  background-color: rgba(223, 228, 234,0.6); 
+}
+
+.footer-headings{
+  font-size: 19px;
+}
+
+.last-footer a{
+  text-decoration: none;
+  color: #6C6F73;
+}
+
+@media only screen and (max-width:576px){
+  .follow-us-icon{
+    margin-top: 18px;
+  }
 }

@@ -16,7 +16,7 @@
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .section-title{
@@ -106,4 +106,8 @@
     .service-box{
       max-width: 100%;
     }
+  }
+
+  .footer-headings{
+      font-size: 17px; 
   }
