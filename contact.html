@@ -16,37 +16,53 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/contact.css">
 
   <title>EnR Contact</title>
 </head> 
 
 <body>
-  <nav class="site-header sticky-top py-1"> 
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-2" href="index.html" aria-label="Product">
-        <img src="images/logo2.png" style="height: 30px" alt="EnR Consultancy Services">
-      </a> 
-      <a class="py-2 d-none d-md-inline-block" href="./blogs.html">Blogs</a>
-      <a class="py-2 d-none d-md-inline-block" href="./products.html">Products</a>
-      <!-- <a class="py-2 d-none d-md-inline-block" href="#">Features</a> -->
-      <a class="py-2 d-none d-md-inline-block" href="#">Future At EnR</a>
-      <a class="py-2 d-none d-md-inline-block" href="./aboutus.html">About Us</a>
-      <a class="py-2 d-none d-md-inline-block" href="services-page.html">Services</a>
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark my-0 " class="navbar-bg">
+    <a class="navbar-brand nav-logo" href="./index.html">
+        <img src="./images/logo2.png" width="50px" height="50px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <a class="py-2 d-none d-md-inline-block" href="contact.html">Contact</a>
+    <div class="collapse navbar-collapse navigation-bar" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item ">
+                <a style="color: #fff;" class="nav-link" href="./blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #fff;" class="nav-link" href="./products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #fff;" class="nav-link " href="#">Future At EnR</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #fff;" class="nav-link " href="./aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #fff;" class="nav-link " href="./services-page.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #fff;" class="nav-link " href="./contact.html">Contact</a>
+            </li>
+        </ul>
+
     </div>
-  </nav>
+</nav>
+  
 
-
+  
   <!-- --------------------------Image and text of contact page------------------------- -->
   <div class="container-fluid" style="background-color: #d3d3d3; box-sizing: border-box;">
     <div class="row">
@@ -125,27 +141,27 @@
 
       <div class="form-group">
         <label class="control-label col-sm-2 form-label" for="name">Name:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-12">
           <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
         </div>
       </div>
 
       <div class="form-group">
         <label class="control-label col-sm-2 form-label" for="email">Email:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-12">
           <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
         </div>
       </div>
 
       <div class="form-group">
         <label class="control-label col-sm-2 form-label" for="desc">Description:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-12">
           <textarea type="text" class="form-control" id="desc" placeholder="Your Query" name="desc"></textarea>
         </div>
       </div>
 
       <div class="form-group">
-        <div class="col-sm-10 offset-sm-2 form-button">
+        <div class="col-sm-10  form-button">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
@@ -167,7 +183,7 @@
 
       <div class="col-sm-12 text-center">
         <i class="fa fa-phone" style="font-size:24px; margin-top: 15px; margin-right: 10px;"></i><span
-          style="font-size:15px;color: black; margin-right: 20px;">Contact : +44 7710 24310</span>
+          style="font-size:15px;color: black; margin-right: 45px;">&nbsp;&nbsp;Contact : +44 7710 24310</span>
       </div>
     </div>
   </div>
@@ -218,16 +234,16 @@
           </ul>
 
         </div>
-        <div class="col-md-2">
-          <h6 class="footer-headings">Our products</h6>
+        <div class="col-md-2 footer-headings">
+          <h6 >Our products</h6>
           <ul class="list-unstyled">
             <li><a style="color: #fff;" href="./services-page.html">Services</a></li>
             <li><a style="color: #fff;" href="">Solutions</a></li>
             <li><a style="color: #fff;" href="">Plans</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
-          <h6 class="footer-headings">Our team</h6>
+        <div class="col-md-2 footer-headings">
+          <h6>Our team</h6>
           <ul class="list-unstyled">
             <li><a style="color: #fff;" href="./aboutus.html">About</a></li>
             <li><a style="color: #fff;" href="">Highlights</a></li>
@@ -235,8 +251,8 @@
             <li><a style="color: #fff;" href="">Partners</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
-          <h6 class="footer-headings">Resources</h6>
+        <div class="col-md-2 footer-headings">
+          <h6 >Resources</h6>
           <ul class="list-unstyled">
             <li><a style="color: #fff;" href="./blogs.html">Blog</a></li>
             <li><a style="color: #fff;" href="#">Customer Reviews</a></li>
