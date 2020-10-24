@@ -12,7 +12,7 @@ body{
   overflow-x: hidden;
 }
 
-:root {
+:root { 
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
@@ -22,27 +22,9 @@ body{
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
-header a {
-  font-family: var(--Sniglet-font);
-  font-size: 0.9em;
-  color: whitesmoke;
-}
-
-
-header .nav-item:last-child {
-  padding-right: 10.5em;
-}
-
-header .nav-item {
-  padding: 0.9em;
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
-}
-
-header .nav-link:hover {
-  color: #e5e5e5;
+.navigation-bar ul li {
+  margin-right: 20px;
+  margin-left: 30px;
 }
 
 header .row .col-md-7 {
@@ -60,8 +42,6 @@ header .row .col-md-5 img {
 
 header {
   background-image:linear-gradient(to right , #833471,#6F1E51) ;
-  /* fallback for old browsers */
-  /* background: var(--bggradient); */
 }
 
 header .container .col-md-7 {
@@ -133,7 +113,7 @@ header .container .col-md-7 p {
 .cover {
   width: 100%;
   height: 55vmin;
-  background: url("alien-3233076_1280.webp");
+  background: url("../images/products-small.jpg");
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
@@ -241,16 +221,6 @@ header .container .col-md-7 p {
   width: 60%;
 }
 
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background:#262F36;
-  z-index: 9999;
-  transition: all 1.5s ease-in-out;
-  /* height: 53px; */
-}
 
 /* -------------------------responsive---------------------------- */
 
