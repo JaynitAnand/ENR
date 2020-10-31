@@ -1,0 +1,349 @@
+body {
+  /* font-family: 'Open Sans', Helvetica, Arial, sans-serif; */
+  /* font-size: 19px; */
+  font-weight: 300;
+  color: #ffffff;
+  overflow-x: hidden; 
+    /* background-image: linear-gradient(to bottom , #ffffff,#ccae62,#ffffff,#ccae62,#502900,#502900); */
+  background-image: url('../img/mission-vision-bg-img.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+ /* navigation */
+ .navigation-bar ul li {
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.tm-mb-25 { margin-bottom: 25px; }
+.tm-mb-35 { margin-bottom: 35px; }
+.tm-mb-40 { margin-bottom: 40px; }
+.tm-mb-45 { margin-bottom: 45px; }
+.tm-mb-50 { margin-bottom: 50px; }
+
+
+h1 { font-size: 3.6rem; }
+
+.tm-line-height-2 { line-height: 2; }
+.tm-text-dark { color: #333333; }
+.tm-text-light-dark { color: #747474; }
+
+h2 { font-size: 2.3rem; }
+
+p {
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.tm-section-mb { margin-bottom: 40px; }
+.tm-section-pb { padding-bottom: 120px; }
+.tm-section-pt { padding-top: 50px; }
+
+.tm-section-2-header {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+
+.tm-section-2-inner,
+.tm-section-3-inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tm-section-3 { min-height: 560px; }
+
+.tm-section-2-left {
+  display: flex;
+  width: 50%;
+  min-height: 560px;
+  /* -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
+  clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%); */
+  clip-path: polygon(0% 0%, 100% 0%, 86% 100%, 0% 100%);
+}
+
+.tm-section-3-text p{
+  /* text-align: center; */
+  margin-left: -43px;
+}
+
+.tm-section-2-right {
+  padding: 70px 120px 40px;
+  width: 50%;
+  margin-left: -40px;
+  -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
+  clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
+}
+
+.tm-img-container {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.tm-img-container-1 {
+  background-image: url(../img/mission2.jpg);
+  /* background-position: top center; */
+  background-size: cover;
+}
+
+.tm-img-container-2 {
+  background-image: url(../img/mission1.jpg);
+  /* background-position: top center; */
+  margin-left: 8px;
+  background-size: cover;
+}
+
+.tm-img-container-3 {
+  background-image: url(../img/mission-3.jpg);
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.tm-img-container-culture{
+  background-image: url('../img/culture-img.jpg');
+  background-size: cover;
+}
+
+/* Slant one */
+
+.tm-img { width: 49%; }
+.tm-bg-primary { background-color: black; }
+.tm-bg-accent { background-color: black; }
+
+.tm-section-3-left {
+  padding: 70px 100px 80px 120px;
+  width: 50%;
+  -webkit-clip-path: polygon(0 0, 86% 0, 100% 100%, 14% 100%);
+  clip-path: polygon(0 0, 86% 0, 100% 100%, 0% 100%);
+  min-height: 560px;
+}
+
+
+
+
+.tm-section-3-right {
+  width: 50%;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 86% 0, 100% 100%, 14% 100%);
+  clip-path: polygon(0 0, 86% 0, 100% 100%, 14% 100%); 
+  margin-left: -40px;
+}
+
+/* -----ethics and culture-------- */
+
+.tm-section-ethics-right{
+  width: 50%;
+  height: 100%;
+  margin-left: -40px;
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+}
+
+.tm-section-ethics-left{
+  padding: 70px 100px 80px 120px;
+  width: 50%;
+  min-height: 560px;
+  clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+/* -X---ethics and culture----x----- */
+
+@media (min-width: 1430px) {
+  .tm-contact-left { width: 80%; }
+
+  .container {
+    max-width: 1430px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+
+@media (max-width: 1199px) {
+
+  .tm-welcome-content { max-width: 450px; }
+
+  .tm-top-bar,
+  .tm-section-3-left { padding-bottom: 63px; }
+  .tm-section-ethics-left { padding-bottom: 63px; }
+
+  .tm-section-3-right {
+    -webkit-clip-path: polygon(0 0, 82% 0, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 82% 0, 100% 100%, 15% 100%);
+  }
+}
+
+@media (max-width: 991px) {
+  
+  .tm-section-2-inner {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .tm-section-2-left { margin-left: 0; }
+
+  .tm-section-2-right {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .tm-section-2-left {
+    width: 100%;
+    height: 560px;
+  }
+
+  .tm-section-3-inner { flex-direction: column-reverse; }
+  .tm-section-ethics-inner { flex-direction: column-reverse; }
+
+  .tm-section-3-left {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tm-section-ethics-left {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tm-section-3-right {
+    width: 100%;
+    height: 560px;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+
+  .tm-section-ethics-right {
+    width: 100%;
+    height: 560px;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .tm-section-3-left { width: 100%; }
+  .tm-section-ethics-left { width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .tm-section-2-right {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .tm-section-3-left { padding: 70px 80px 80px 80px; }
+  .tm-section-ethics-left { padding: 70px 80px 80px 80px; }
+}
+
+@media (max-width: 420px) {
+  .tm-section-3-left { padding: 70px 50px 80px 50px; }
+  .tm-section-ethics-left { padding: 70px 50px 80px 50px; }
+}
+
+
+/* ---------eye animation--------- */
+
+
+.eye{
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%) rotate(45deg);
+  border-radius: 75% 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ball{
+  width: 90px;
+  height: 90px;
+  background: #222f3e;
+  border-radius: 50%;
+  border: 20px solid #4a69bd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.shut{
+  width: 300px;
+  height: 160px;
+  /* background: black; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  z-index: 9999;
+}
+
+.shut span{
+  display: block;
+  width: 100%;
+  height: 15%;
+  background: #aaa69d;
+  border-radius: 0 0 60% 60%;
+  animation: eyeshut infinite;
+  animation-duration: 2.7s ;
+  animation-direction: alternate;
+  animation-delay: 4s ;
+}
+
+
+@keyframes eyeshut {
+  from{height: 15%;}
+  to{height: 100%;}
+} 
+
+.ethics-bg{
+  background-image: url("../img/mission-ethics.jpg");
+  background-position: center;
+  background-size: cover;
+  /* border: 2px solid black; */
+  box-shadow: 4px 4px 15px white;
+}
+
+.vision-bg-image{
+  background-image: url("../img/vision-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  /* border: 2px solid black; */
+  box-shadow: 4px 4px 15px white;
+}
+
+/* ----footer----- */
+#main-footer {
+  background-color: #262F36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 0.8rem; 
+}
+
+#main-footer h6 {
+  color: #718FA9;
+} 
+
+.list-unstyled a{
+  font-size: 15px; 
+  text-decoration: none;
+  color: #fff;   
+}
+
+.footer-headings h6{
+    font-size: 20px;
+}
+
+.footer-headings ul li{
+    margin-top: 10px;
+}
+
